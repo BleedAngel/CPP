@@ -20,3 +20,31 @@ int main() {
         cout<<"戊等";
     }
 }
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int score;
+    cin>>score;
+    switch(score){
+        case 90 ... 99:
+            cout<<"優";
+            break;
+        case 80 ... 89:
+            cout<<"甲";
+            break;
+        case 70 ... 79:
+            cout<<"乙";
+            break;
+        case 60 ... 69:
+            cout<<"丙";
+            break;
+        case 0 ... 59:
+            cout<<"丁";
+            break;
+        default:
+            cout<<"Error";
+    }
+}
